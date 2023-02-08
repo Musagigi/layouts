@@ -119,7 +119,7 @@
 }
 
 .itemTitle::before {
-	content: url(/refhW6/img/sectionWork/.png);
+	content: url(../img/sectionWork/.png);
 }
 /* end sectionWork */
 

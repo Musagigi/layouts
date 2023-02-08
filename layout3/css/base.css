@@ -12,7 +12,7 @@ body {
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 300;
 	color: #888;
-	font-size: 16px;
+	font-size: 14px;
 	background: #fdfdfb;
 }
 
@@ -28,13 +28,13 @@ h3,
 
 h1,
 .h1 {
-	font-size: 5.5rem;
+	font-size: 4.5rem;
 	margin: 3rem 0;
 }
 
 h2,
 .h2 {
-	font-size: 35px;
+	font-size: 30px;
 	margin: 20px 0;
 }
 
@@ -57,7 +57,7 @@ em,
 
 p {
 	font-weight: 300;
-	margin: 0 16px;
+	margin: 0 14px;
 }
 
 /* .content-text ul {
@@ -67,7 +67,7 @@ p {
 
 .container {
 	max-width: 1160px;
-	padding: 10px 30px;
+	padding: 10px calc(var(--offset) * 2);
 	margin: 0 auto;
 }
 
@@ -84,14 +84,13 @@ p {
 
 .btn {
 	display: inline-block;
-	padding: 10px 20px;
+	padding: 25px 38px;
 	cursor: pointer;
 	text-decoration: none;
-	border-radius: 10px;
 }
 
-.btnGreen {
-	background: #1d9d73;
+.btnColor {
+	background: #444240;
 	color: #fff;
 }
 

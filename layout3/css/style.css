@@ -1,17 +1,13 @@
 /* article.teamItem*3>img>h3.h3{Text $}>div{aaa $} */
 /* START HEADER */
 .headerMenu {
-	padding: 20px 0;
+	padding: 2.5rem 0;
 	color: rgb(0, 0, 0);
-}
-
-.navItems {
-	--offset: 32px;
 }
 
 .navItem {
 	display: inline-block;
-	margin: 0 var(--offset);
+	margin: 0 3rem;
 }
 
 .headerMenu {
@@ -21,28 +17,60 @@
 .searchBtn {
 	border: 0;
 	padding: 0;
-	margin: 0 23px;
+	margin: 0 1.1rem;
 	background-color: transparent;
 	cursor: pointer;
 }
 /* END HEADER */
 
 /* START MAIN */
-/* start sectionServ */
-.sectionServ {
-	text-align: center;
-	margin-bottom: 7.5rem;
+/* start sectionSummer*/
+.sectionSummer {
+	background: url(../img/elipse_main.png) no-repeat center;
 }
 
-.servText {
-	margin: 50px 0;
-	color: var(--green);
+.summerInfo {
+	justify-content: center;
+	align-items: center;
+}
+
+.summerText {
+	width: calc(80% / 2 - var(--offset) * 2);
+}
+
+.summerText h1 {
+	margin: 0;
+	/* display: inline-block; */
+	font-weight: 400;
+	position: relative;
+	left: -55px;
+}
+
+.summerText h1::before {
+	content: "";
+	border: 1px solid #8b8371;
+	width: 50px;
+	height: 0px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	left: -15px;
+}
+
+.summerText h2 {
+	margin-bottom: 4rem;
+}
+
+.summerText p {
+	margin: 0;
+	width: 260px;
+	margin-bottom: 6.5rem;
 }
 
 .servSmalltext {
 	margin: 0;
 }
-/* end sectionServ */
+/* end sectionSummer */
 
 /* start sectionInfo */
 .sectionInfo {
