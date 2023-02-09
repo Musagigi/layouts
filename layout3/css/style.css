@@ -21,6 +21,10 @@
 	background-color: transparent;
 	cursor: pointer;
 }
+
+.searchBtn:last-child {
+	margin-right: 0;
+}
 /* END HEADER */
 
 /* START MAIN */
@@ -66,27 +70,98 @@
 	width: 260px;
 	margin-bottom: 6.5rem;
 }
-
-.servSmalltext {
-	margin: 0;
-}
 /* end sectionSummer */
 
-/* start sectionInfo */
-.sectionInfo {
-	margin-bottom: 7.5rem;
+/* start sectionModels */
+.modelTitle {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
 }
 
-.infoCard {
+.modelTitle h2 {
+	width: 100%;
+	text-align: center;
+}
+
+.modelBtn {
+	padding: 0;
+	width: 10.5rem;
+	height: 2.6rem;
+	background-color: transparent;
+	cursor: pointer;
+	border: 0;
+}
+
+.watchItem {
+	background: #fdfdfb;
 	width: calc(100% / 3 - var(--offset) * 2);
 }
 
-.cardText {
-	max-width: 330px;
+.item {
+	padding: 7.5rem 2.8rem;
 }
-/* end sectionInfo */
 
-/* start sectionWork */
+.itemTitle {
+	font-size: 16px;
+	font-weight: 700;
+	margin-left: 1.4rem;
+}
+
+.itemBack {
+	/* background: #e2d0c4; */
+	background: linear-gradient(145deg, #e2d0c41a, #e6b59638);
+	border: 1px solid #e2d0c433;
+	border-radius: 50%;
+	margin-bottom: 1.5rem;
+}
+
+.itemDetail {
+	position: relative;
+	margin-left: 25px;
+	cursor: pointer;
+}
+
+.itemDetail::before {
+	content: "";
+	border: 0.5px solid #8b8371;
+	width: 30px;
+	height: 0px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	left: -15px;
+}
+
+/* end sectionModels */
+
+/* start sectionQuality */
+.qualityDetail {
+	justify-content: center;
+	align-items: center;
+}
+
+.qualityImg {
+	margin-right: 2.5rem;
+	width: calc(90% / 2 - var(--offset) * 2);
+}
+
+.qualityInfo {
+	width: calc(60% / 2 - var(--offset) * 2);
+}
+
+.qualityInfo p {
+	margin: 0;
+	max-width: 375px;
+	margin-bottom: 45px;
+}
+
+.btnColor {
+	background: #d4b098;
+}
+/* end sectionQuality */
+
+/* start sectionTestim */
 .sectionWork {
 	background: url(/refhW6/img/sectionWork/Warhammer-40-000-Blood-Angels-Video-Game-Art-2073611.jpg)
 		no-repeat bottom;
@@ -119,26 +194,6 @@
 	margin-bottom: 3rem;
 }
 
-.item {
-	width: calc(100% / 2 - var(--offset) * 2);
-}
-
-.item p {
-	color: #fff;
-	margin: 0;
-	/* font-size: 1.4rem; */
-}
-
-.itemTitle {
-	color: var(--green);
-}
-
-.itemTitle::before {
-	content: url(/refhW6/img/sectionWork/.png);
-}
-/* end sectionWork */
-
-/* start sectionTestim */
 .sectionTestim {
 	margin-bottom: 13rem;
 }
