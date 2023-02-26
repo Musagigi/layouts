@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="ru">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<title>Landing hw 5</title>
+		<title>Landing</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css?family=Ubuntu:300"
+			href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="css/main.css" />
@@ -15,20 +17,180 @@
 			<div class="container">
 				<nav class="headerMenu">
 					<div class="headerMenu__logo">
-						<img src="./img/header/Logo.svg" alt="logo" />
+						<img src="./img/header/Icon-logo.svg" alt="logo" />
 					</div>
-					<ul class="headerMenu__navs">
-						<li class="headerMenu__navs-item">Home</li>
-						<li class="headerMenu__navs-item">About</li>
-						<li class="headerMenu__navs-item">Pages</li>
-						<li class="headerMenu__navs-item">Blog</li>
-						<li class="headerMenu__navs-item">Gallery</li>
-						<li class="headerMenu__navs-item">Contacts</li>
+					<ul class="headerMenu__items">
+						<li class="headerMenu__items-item">
+							<a href="#">о нас</a>
+						</li>
+						<li class="headerMenu__items-item">
+							<a href="#">скидки</a>
+						</li>
+						<li class="headerMenu__items-item">
+							<a href="#">лучшие туры</a>
+						</li>
+						<li class="headerMenu__items-item">
+							<a href="#">связаться с нами</a>
+						</li>
 					</ul>
 				</nav>
+				<section class="headerTitle">
+					<h1 class="headerTitle__subtitle">
+						ТУРЫ НА ВОЗДУШНОМ ШАРЕ
+					</h1>
+					<p class="headerTitle__text">
+						незабываемое приключение ждет вас
+					</p>
+					<button class="headerTitle__bttn btnV1">НАШ КАТАЛОГ</button>
+				</section>
 			</div>
 		</header>
 
+		<main class="main">
+			<div class="container">
+				<section class="popular">
+					<h2 class="popularTitle">НЕВЕРОЯТНОЕ ОЩУЩЕНИЕ СВОБОДЫ</h2>
+					<div class="popularInfo">
+						<div class="popularInfo__text">
+							<div class="popularInfo__text-subtext">
+								<h3>ПОЗВОЛЬТЕ СЕБЕ ПРИКЛЮЧЕНИЕ</h3>
+								<p>
+									Задача организации, в особенности же
+									дальнейшее развитие различных форм
+									деятельности влечет за собой процесс
+									внедрениям и модернизации соответствующий
+									условий активизации. Таким образом начало
+									повседневной работы по формированию позиции
+									влечет.
+								</p>
+							</div>
+							<div class="popularInfo__text-subtext">
+								<h3>ВВЕРХ НА 6000 МЕТРОВ НАД УРОВНЕМ МОРЯ</h3>
+								<p>
+									Задача организации, в особенности же
+									дальнейшее развитие различных форм
+									деятельности влечет за собой процесс
+									внедрения и модернизации соответствующий
+									условий активизации. Таким образом начало
+									повседневной работы по формированию позиции
+									влечет.
+								</p>
+							</div>
+						</div>
+						<div class="popularInfo__img">
+							<img
+								src="./img/popular/Photo-group.png"
+								alt="img"
+							/>
+						</div>
+					</div>
+					<button class="popularBtn btnV1">Узнать больше</button>
+				</section>
+			</div>
+		</main>
+
+		<!-- <section class="rooms">
+			<div class="container">
+				<div class="roomsTitle">
+					<h2 class="roomsTitle__title">Номера и цены</h2>
+					<img src="./img/rooms/Group 14.svg" alt="img" />
+				</div>
+				<div class="roomsCard">
+					<article class="roomsCard__item">
+						<img
+							class="roomsCard__item-img"
+							src="./img/rooms/Rectangle 1.png"
+							alt="img"
+						/>
+						<ul class="roomsCard__item-txt">
+							<li class="txt">
+								<h4>Стандарт</h4>
+								<span>700 руб./сутки</span>
+							</li>
+							<li class="txt">
+								Размер номера
+								<span>1500*1500*2100 см</span>
+							</li>
+							<li class="txt">
+								Размер домика
+								<span>32*32 см</span>
+							</li>
+						</ul>
+						<button class="roomsCard__bttn btn btn-pink">
+							Забронировать
+						</button>
+					</article>
+					<article class="roomsCard__item">
+						<img
+							class="roomsCard__item-img"
+							src="./img/rooms/Rectangle 1(1).png"
+							alt="img"
+						/>
+						<ul class="roomsCard__item-txt">
+							<li class="txt">
+								<h4>Стандарт +</h4>
+								<span>800 руб./сутки</span>
+							</li>
+							<li class="txt">
+								Размер номера
+								<span>1200*2200*2100 см</span>
+							</li>
+							<li class="txt">
+								Размер домика
+								<span>38*32 см</span>
+							</li>
+						</ul>
+						<button class="roomsCard__bttn btn btn-pink">
+							Забронировать
+						</button>
+					</article>
+					<article class="roomsCard__item">
+						<img
+							class="roomsCard__item-img"
+							src="./img/rooms/Rectangle 1(2).png"
+							alt="img"
+						/>
+						<ul class="roomsCard__item-txt">
+							<li class="txt">
+								<h4>Люкс</h4>
+								<span>1000 руб./сутки</span>
+							</li>
+							<li class="txt">
+								Размер номера
+								<span>1200*3700*1500 см</span>
+							</li>
+							<li class="txt">
+								Размер домика
+								<span>32*32 см</span>
+							</li>
+						</ul>
+						<button class="roomsCard__bttn btn btn-pink">
+							Забронировать
+						</button>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="photogal">
+			<div class="container">
+				<h2 class="photogalTitle">Фотогалерея</h4>
+				<div class="photogalImgs">
+					<img class="photogalImgs__img" src="./img/photogall/Rectangle 5.png" alt="img">
+					<img class="photogalImgs__img" src="./img/photogall/Rectangle 5.png" alt="img">
+					<img class="photogalImgs__img" src="./img/photogall/Rectangle 5.png" alt="img">
+				</div>
+				<p>1/11</p>
+				<div>
+					<button class="photogallBtn">
+						<img src="./img/photogall/Vector 7.png" alt="img">
+					</button>
+					<button class="photogallBtn">
+						<img src="./img/photogall/Vector 8.png" alt="img">
+					</button>
+				</div>
+			</div>
+		</section> -->
 		<!-- <section class="create">
 			<div class="container">
 				<div class="createWrap">
